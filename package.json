@@ -47,14 +47,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pixelartui/pixelartui-react-native/pixelartui-react-native.git"
+    "url": "git+https://github.com/Pixelartui/pixelartui-react-native.git"
   },
   "author": "Yazed Jamal <myazed.jamal@gmail.com> (https://github.com/Pixelartui/pixelartui-react-native)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pixelartui/pixelartui-react-native/pixelartui-react-native/issues"
+    "url": "https://github.com/Pixelartui/pixelartui-react-native/issues"
   },
-  "homepage": "https://github.com/Pixelartui/pixelartui-react-native/pixelartui-react-native#readme",
+  "homepage": "https://github.com/Pixelartui/pixelartui-react-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
