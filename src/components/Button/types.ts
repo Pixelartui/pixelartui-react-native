@@ -1,3 +1,5 @@
+import type React from 'react';
+
 export type ButtonSize = 'small' | 'medium' | 'large';
 export type ButtonType = 'main' | 'outline';
 
@@ -9,7 +11,7 @@ export interface HandleOnClickEvent {
   [key: string]: any;
 }
 export interface ButtonProps {
-  text: string;
+  text: string | React.ReactNode;
   buttonSize: ButtonSize;
   buttonType: ButtonType;
   fullwidth?: boolean;
