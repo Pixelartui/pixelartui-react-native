@@ -203,7 +203,7 @@ export const StyledText = Styled.Text<{
 }>`
     text-align: center;
     font-size: ${(props) =>
-      handleButtonSize(props.$size || 'medium', props.theme).fontSize};
+      handleButtonSize(props.$size || 'medium', props.theme).fontSize}px;
     color: ${(props) =>
       handleFontColor(
         props.$backgroundColor
