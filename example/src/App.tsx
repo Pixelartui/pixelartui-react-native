@@ -1,5 +1,6 @@
 /* eslint-disable react-native/no-inline-styles */
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import { View } from 'react-native';
 import { Button } from 'pixelartui-react-native';
 import { StyledScrollView } from './styled';
 export default function App() {
@@ -35,13 +36,16 @@ export default function App() {
             customWidth="200"
             onPress={() => {}}
           />
-          <Button
-            text="Full width"
-            buttonSize="medium"
-            buttonType="main"
-            onPress={() => {}}
-            fullwidth
-          />
+          <View style={{ width: '80%' }}>
+            <Button
+              text="Full width"
+              buttonSize="medium"
+              buttonType="main"
+              onPress={() => {}}
+              fullwidth
+            />
+          </View>
+
           <Button
             text="Click Me"
             buttonSize="medium"
