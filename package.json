@@ -37,6 +37,7 @@
     "prepare": "bob build",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "lint:fix": "eslint \"**/*.{js,ts,tsx}\" --fix",
     "release": "release-it --only-version",
     "test": "jest"
   },
@@ -80,6 +81,7 @@
     "react-native": "0.81.5",
     "react-native-builder-bob": "^0.40.15",
     "release-it": "^19.0.4",
+    "styled-components": "^6.1.19",
     "typescript": "^5.9.2"
   },
   "peerDependencies": {
